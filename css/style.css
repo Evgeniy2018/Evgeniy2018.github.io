@@ -145,6 +145,13 @@ footer{
 	margin-right: 13px;
 }
 
+.copiright{
+	padding-top: 70px;
+	color: #434445;
+    font-size: 20px;
+    font-weight: 100px;
+}
+
 .footer-cta-block{
 	text-align: center;
 }
@@ -184,6 +191,17 @@ footer{
 	}
 	.header-pretitle{
 		margin-top: 10px;
+		text-align: center;
+	}
+	.header-title{
+		text-align: center;
+	}
+	.header-subtitle{
+		text-align: center;
+	}
+	.header-button-block{
+		text-align: center;
+		max-width: none;
 	}
 	.footer-author{
 		font-size: 18px;
@@ -226,6 +244,15 @@ footer{
 		padding-right: 20px;
 	}
 	.footer-author, .footer-text{
+		text-align: center;
+	}
+	.header-title{
+		text-align: center;
+	}
+	.header-subtitle{
+		text-align: center;
+	}
+	.header-button-block{
 		text-align: center;
 	}
 }
