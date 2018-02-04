@@ -211,6 +211,9 @@ footer{
 		font-size: 14px;
 		text-align: center;
 	}
+	.copiright{
+	padding-top: 20px;
+	}
 	.social-block a{
 		margin-left: 5px;
 		margin-right: 5px;
@@ -245,6 +248,9 @@ footer{
 	}
 	.footer-author, .footer-text{
 		text-align: center;
+	}
+	.copiright{
+	padding-top: 20px;
 	}
 	.header-title{
 		text-align: center;
