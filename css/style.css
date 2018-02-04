@@ -123,7 +123,6 @@ footer{
 	background-color: #3a7dfd;
 	color: #fff;
 	padding-top: 60px;
-	padding-bottom: 110px;
 }
 
 .footer-author{
@@ -179,9 +178,21 @@ footer{
 	color: #3a7dfd;
 }
 
+.button-up{
+	position: relative;
+	left: 1000px;
+	bottom: 321px;
+
+}
+
 @media (max-width: 1200px){
 	.header-pretitle{
 		margin-top: 60px;
+	}
+	.button-up{
+		position: relative;
+		left: 800px;
+		bottom: 321px;
 	}
 }
 
@@ -212,7 +223,7 @@ footer{
 		text-align: center;
 	}
 	.copiright{
-	padding-top: 20px;
+		padding-top: 20px;
 	}
 	.social-block a{
 		margin-left: 5px;
@@ -234,12 +245,17 @@ footer{
 		padding-left: 20px;
 		padding-right: 20px;
 	}
+	.button-up{
+		position: relative;
+		left: 600px;
+		bottom: 261px;
+	}
 }
 
-@media (max-width: 768px;){
+@media (max-width: 768px){
 	.portfolio-col-1{
-		margin-left: 20px;
-		margin-right: 20px;
+		padding-left: 20px;
+		padding-right: 20px;
 		margin-bottom: 40px;
 	}
 	.portfolio-col-2{
@@ -250,7 +266,7 @@ footer{
 		text-align: center;
 	}
 	.copiright{
-	padding-top: 20px;
+		padding-top: 20px;
 	}
 	.header-title{
 		text-align: center;
@@ -260,5 +276,34 @@ footer{
 	}
 	.header-button-block{
 		text-align: center;
+	}
+	.button-up{
+		position: relative;
+		left: 590px;
+		bottom: 261px;
+	}
+}
+
+@media (max-width: 425px){
+	.button-up{
+		position: relative;
+		left: 260px;
+		bottom: 430px;
+	}
+}
+
+@media (max-width: 375px){
+	.button-up{
+		position: relative;
+		left: 200px;
+		bottom: 435px;
+	}
+}
+
+@media (max-width: 320px){
+	.button-up{
+		position: relative;
+		left: 150px;
+		bottom: 435px;
 	}
 }
